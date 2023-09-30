@@ -1,0 +1,38 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #16417a; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    padding: 20px; /* Espaciado interno del encabezado */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para los títulos de sección */
+h1 {
+    color: #ffffff; /* Color de texto de los títulos */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px; /* Espaciado interno del contenido principal */
+}
+
+/* Estilos para los párrafos de texto */
+p {
+    line-height: 1.6; /* Espaciado entre líneas del texto */
+}
+
+/* Estilos para las listas */
+ul {
+    margin: 0; /* Elimina el margen predeterminado de las listas */
+    padding-left: 20px; /* Espaciado interno de las listas */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #0078d4; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse sobre los enlaces */
+}

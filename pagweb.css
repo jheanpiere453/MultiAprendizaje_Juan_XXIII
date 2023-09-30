@@ -1,0 +1,64 @@
+/* Color de fondo dorado para el cuerpo de la página */
+body {
+    background-color: #ffffff; /* Dorado */
+    color: #000; /* Negro */
+}
+
+/* Estilo para los encabezados h1 en blanco */
+h1 {
+    color: #d1a927; /* Blanco */
+}
+
+/* Estilo para los enlaces en dorado y con subrayado negro */
+a {
+    color: #695d17; /* Dorado */
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces cuando están en estado "hover" (cursor sobre el enlace) */
+a:hover {
+    text-decoration: underline; /* Subrayado en estado "hover" */
+}
+/* Estilo para el logotipo en el encabezado */
+img {
+    width: 200px; /* Cambia el ancho según tus necesidades */
+    height: auto; /* Mantiene la proporción original */
+    margin-top: 10px; /* Añade margen superior */
+    margin-left: 20px; /* Añade margen izquierdo */
+}
+/* Estilos para la barra lateral desplegable */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* La barra lateral está oculta inicialmente */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    overflow-y: auto; /* Hace que el contenido sea desplazable si es necesario */
+    transition: left 0.3s; /* Agrega una transición suave al mostrar/ocultar */
+}
+
+.sidebar h2 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para mostrar la barra lateral al acercar el mouse */
+.content:hover + .sidebar {
+    left: 0;
+}
