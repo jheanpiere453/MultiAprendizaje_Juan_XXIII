@@ -1,6 +1,6 @@
 /* Estilos para el encabezado */
 header {
-    background-color: #91751b; /* Color de fondo del encabezado */
+    background-color: #91501b; /* Color de fondo del encabezado */
     color: #fff; /* Color del texto del encabezado */
     padding: 20px; /* Espaciado interno del encabezado */
     text-align: center; /* Alineación del texto al centro */
@@ -29,7 +29,7 @@ ul {
 
 /* Estilos para los enlaces */
 a {
-    color: #0078d4; /* Color de los enlaces */
+    color: #725d00; /* Color de los enlaces */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
 }
 
